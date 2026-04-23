@@ -19,8 +19,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     container:
       image: ghcr.io/atas/ssg-builder:202312111157
